@@ -1,0 +1,25 @@
+<?php
+// Online PHP compiler to run PHP program online
+// Print "Try programiz.pro" message
+
+
+$str='umbrella';
+$length = (strlen($str));
+
+$i=0;
+$arr=[];
+while($i<$length){
+    if(array_key_exists($str[$i],$arr)){
+        $arr[$str[$i]]++;
+        
+    }
+    else{
+        $arr[$str[$i]]=1;
+    }
+ $i++;   
+}
+
+print_r($arr);
+
+?>
+program to count letters in a string in php
